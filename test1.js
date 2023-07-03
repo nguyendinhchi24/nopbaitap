@@ -16,4 +16,4 @@ class Circle {
 let circle = new Circle(2, 'red');
 let radius = circle.getRadius(); // 2
 let area = circle.getArea(); // 12.566370614359172
-alert("radius: " + radius + "; area: " + area);
+console.log("radius: " + radius + "; area: " + area);

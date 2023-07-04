@@ -20,12 +20,12 @@ class Rectangle {
         ctx.stroke()
     }
 }
-
-const rectangle = new Rectangle(500, 500)
+length = +prompt("nhập vào chiều dài: ")
+width = +prompt("nhập vào chiều rộng: ")
+const rectangle = new Rectangle(length, width)
 rectangle.drawRectangle()
 
-rectangle.length = +prompt("nhập vào chiều dài: ")
-rectangle.width = +prompt("nhập vào chiều rộng: ")
+
 
 console.log("Diện tích:", rectangle.getArea())
 console.log("Chu vi:", rectangle.getPerimeter())

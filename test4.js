@@ -27,7 +27,7 @@ rectangle.drawRectangle()
 
 
 
-console.log("Diện tích:", rectangle.getArea())
-console.log("Chu vi:", rectangle.getPerimeter())
+console.log("Diện tích:", rectangle.getArea(),"m^2")
+console.log("Chu vi:", rectangle.getPerimeter(),"m")
 
 
